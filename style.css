@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(121, 84, 59, 0.468);
+}
+header {
+    color:rgba(116, 74, 27, 0.466);
+    font-size: 30px;
+   text-align: center;
+}
+p {
+    font-size:40px;
+}
+canvas {
+    background-color: white;
+}
+section {
+    text-align: center;
+}
+footer {
+    text-align:center;
+}
+footer a {
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap'); 
+body {
+    margin:0; 
+}
+header{
+    margin-bottom: 0;
+}
+section{
+    border-top: solid;
+    border-top-width: 1px;
+    text-align: center;
+    margin-top: -53px;
+}
+nav{
+    border-style: solid;
+    border-width: 1px;
+    border-color: dimgray;
+    align-items: center;
+    height:50px;
+    margin-left: 17vw;
+    margin-right: 17vw;
+    display:flex;
+    justify-content:space-around;
+}
+h1{
+    /* border-width: 1px; */
+    margin-top: 0;
+    /* border-bottom: solid; */
+    font-family: 'Oswald';
+    font-size : 80px;
+}
+.line{
+    background-color: rgb(119, 1, 1);
+    height:10px;
+}
+.container{
+    margin-bottom: 50px;
+    margin-left: 17vw;
+    margin-right: 17vw;
+    background-color: rgba(245, 243, 243, 0.658);
+    text-align: center;
+}
+.row{
+    
+    display: flex;
+    height: 200px;
+    
+}
+.box1{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-image: url("../images/flower.jpg");
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    
+
+}
+.box2{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-size: cover;
+    background-position: center;
+    width: 25%;
+}
+.box3{
+    margin-left: 10px;
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+}
+.img1{
+    background-image: url("../images/moflo.jpg");  
+}
+.img2{
+    background-image: url("../images/horse.jpg");  
+}
+.img3{
+    background-image: url("../images/flowerr.jpg");  
+}
+.img4{
+     background-image: url("../images/elmoflo.jpg");  
+}
+.img5{
+    background-image: url("../images/flunyear.jpg");  
+}
+.img6{
+    background-image: url("../images/fstars.jpg");  
+}
+.img7{
+    background-image: url("../images/slide.jpg");
+}
+.img8{
+    background-image: url("../images/emf.jpg");
+}
+.img9{
+    background-image: url("../images/dolphin.jpg");
+}
+.height{
+    height: 200px;
+}

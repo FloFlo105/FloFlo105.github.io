@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="js/drawing.js"></script>
+        <script src="js/name.js"></script>
+        <script src="js/ironman.js"></script>
+        <script src="js/ruler.js"></script>
+        <script src="js/mario.js"></script>
+        <script src="js/marioWalk.js"></script>
+        <script src="js/cursor.js"></script>
+        <script src="js/smiley.js"></script>
+        <script src="js/marioWalking.js"></script>
+        <script src="js/marioRun.js"></script>
+        <script src="js/brick.js"></script>
+        <script src="js/sky.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Drawing</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+        <section>
+            <canvas id="myCanvas"></canvas>
+        </section>
+        <footer>
+            <a href="#" onClick="drawIronman(5,5)">ironman</a>
+            <a href="#" onClick="drawMario(20,68)">mario</a>
+            <a href="#" onClick="drawMarioWalk(90,68)">MarioWalk</a>
+            <a href="#" onClick="drawName()"> name</a>
+            <a href="#" onClick="erase()">erase</a>
+            <a href="#" onClick="drawRuler(5)">Ruler</a>
+            <a href="#" onClick="drawCursor()">cursor</a>
+            <a href="#" onClick="drawSmiley()">smiley</a>
+            <a href="#" onClick="drawMarioWalking(130,68)">marioWalking</a>
+            <a href="#" onClick="drawBricks(0,84,15)">Bricks</a>
+            <a href="#" onClick="drawMarioRun(210,68)">marioRun</a>
+            <a href="#" onClick="drawBackground()">background</a>
+            <br>
+            <br>
+            <a href="#" onClick="incrementScale">Scale</a>
+        </footer>
+    </body>
+</html>
